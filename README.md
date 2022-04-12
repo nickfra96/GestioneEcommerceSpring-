@@ -1,3 +1,3 @@
 # GestioneEcommerceSpring
 
-Applcaizione realizzata utilizzando il framework Spring Boot.
+Semplice applcaizione realizzata utilizzando il framework Spring Boot.

@@ -23,7 +23,7 @@ public class MessageConfig {
     @Bean
     public LocaleResolver localResolver() {
         SessionLocaleResolver slr = new SessionLocaleResolver();
-        slr.setDefaultLocale(new Locale("it")); //stiamo forzando il sistema a usare l'italiano al nostro web-service
+        slr.setDefaultLocale(new Locale("it")); //sto forzando il sistema a usare l'italiano nel web-service
         return slr;
     }
 

@@ -28,7 +28,7 @@ public class AuthEntryPoint extends BasicAuthenticationEntryPoint {
 
         logger.warn("Errore Sicurezza: " + authException.getMessage());
 
-        // Authentication failed, send error response.
+        // Autenticazione fallita, error response.
         //response.setContentType("application/json;charset=UTF-8");
         response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
         response.addHeader("WWW-Authenticate", "Basic realm=" + getRealmName() + "");
